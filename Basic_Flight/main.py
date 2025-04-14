@@ -26,21 +26,11 @@ def send_command(command):
     print("Error:", e)
 
 
-# Step 1: Start drone connection
+# Step 1: Enter SDK mode
 send_command("command")
 
 # Step 2: Takeoff command
 send_command("takeoff")
-
-# Step 3: Ascend to 110 cm
-send_command("up 110")
-
-# Step 4 :Backflip
-send_command("flip b")
-
-# Step 5: Landing command
-send_command("land")
-
 
 #send_command("streamon")
 
