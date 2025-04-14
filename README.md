@@ -3,6 +3,6 @@ Public repository for sharing our Tello Drone Demos
 
 # Note
 
-Some or most code are controbuted from:
+Some or most code are contributed from:
 - Chat GPT
 - Google AI Studio
