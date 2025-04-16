@@ -57,5 +57,5 @@ send_command("flip b")
 # Landing command
 send_command("land")
 
-# Close the socket
+# Close the socket (conenction to drone)
 sock.close()
