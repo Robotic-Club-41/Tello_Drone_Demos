@@ -1,3 +1,6 @@
+
+# -------- Start of Setup -------- #
+
 import socket
 import cv2
 
@@ -25,13 +28,30 @@ def send_command(command):
     print("Error:", e)
 
 
+# -------- End of Setup -------- #
+
+# Debug marker
+print("Marker")
+
 # Enter SDK mode
 send_command("command")
 
 # Takeoff command
 send_command("takeoff")
 
+# Ascend to 200 cm
+send_command("up 200")
+
 # Backflip
+send_command("flip f")
+
+# Frontflip
+send_command("flip b")
+
+# Backflip
+send_command("flip f")
+
+# Frontflip
 send_command("flip b")
 
 # Landing command
