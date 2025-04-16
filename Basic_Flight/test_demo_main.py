@@ -39,21 +39,6 @@ send_command("command")
 # Takeoff command
 send_command("takeoff")
 
-# Ascend to 110 cm
-send_command("up 110")
-
-# Backflip
-send_command("flip f")
-
-# Frontflip
-send_command("flip b")
-
-# Backflip
-send_command("flip f")
-
-# Frontflip
-send_command("flip b")
-
 # Landing command
 send_command("land")
 
